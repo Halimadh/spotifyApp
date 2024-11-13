@@ -1,0 +1,20 @@
+.login-card{
+   display: flex;
+   min-height: 100vh ;
+}
+.justify-content-center{
+    justify-content: center !important;
+    
+}
+.align-items{
+    align-items: center !important;
+}
+ .bg{
+    background-color:#181818 ;
+    color: #F1F1F1;
+ }
+ .card-img{
+    width: 45px;
+     height: 45px;
+     margin-right: 5px;
+ }

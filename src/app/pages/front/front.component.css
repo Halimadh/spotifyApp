@@ -1,0 +1,8 @@
+
+.div-flex{
+    display:flex;
+    flex-direction: row;
+    margin-top: 1%;
+    gap: 1%;
+    margin-bottom: 5%;
+}

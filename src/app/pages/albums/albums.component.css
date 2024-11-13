@@ -1,0 +1,7 @@
+.title-layout{
+    display: flex;
+    align-items: center;
+    gap: 5;
+    margin-bottom: 4%;
+    font-size: 25px;
+}

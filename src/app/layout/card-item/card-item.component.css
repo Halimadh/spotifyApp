@@ -1,0 +1,21 @@
+.card-item{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    height: 230px;
+    border: solid 2px var(--bg-primary-color);
+    border-radius: 10px;
+    cursor: pointer;
+    color: var(--text-primary-color);
+    background-color: black;
+    /* margin: 0.5rem; */
+}
+.card-item-img{
+    width: 100%;
+    min-height: 150px;
+    max-height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+}

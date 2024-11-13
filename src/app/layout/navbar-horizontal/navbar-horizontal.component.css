@@ -1,0 +1,18 @@
+*{
+    font-family: roboto ;
+}
+.nav-bg{
+    z-index: 5;
+    background-color: #181818;
+    width: 100%;
+    height: 4rem;
+    flex-wrap:nowrap;
+    }
+a{
+    text-decoration: none;
+}
+.logo-spotify{
+    width: 35px;
+    height: 35px;
+    background-color: #0000;
+}

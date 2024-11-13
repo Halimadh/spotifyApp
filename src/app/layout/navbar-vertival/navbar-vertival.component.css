@@ -1,0 +1,17 @@
+.nav{
+    width: 10rem;
+    height: 99vh;
+    background-color: #181818;
+    border-radius:0% 2% 2% 0%;
+    height: 100%;
+}
+.nav-item a{
+    color: #F1F1F1;
+    font-size:20px;
+}
+.active{
+    background-color: #298334cc;
+}
+a:hover{
+    background-color: #298334cc;
+}
