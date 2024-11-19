@@ -1,15 +1,21 @@
- <div class="login-card justify-content-center align-items h-100">
- <div class="row justify-content-center gap-5 w-100 g-0">
-  
-    <div class="col-3 d-flex ">
-      <div class="card align-items bg" style="width: 50rem;">
-        <span>Use demo account</span>
-        <div class="card-body">
-        <img src="./assets/imgs/profile.jfif" class="card-img" alt="...">
-        <span>Demo User</span>
+<div class="login-card justify-content-center align-items h-100">
+  <div class="row justify-content-center gap-5 w-100 g-0">
+    <!-- @if(!loading){ -->
+      <div class="col-3 d-flex ">
+        <div class="card align-items bg cursor-pointer p-2" style="width: 50rem;" (click)="login()">
+          <span>Use demo account</span>
+          <div class="card-body">
+            <img src="./assets/imgs/profile.jfif" class="card-img" alt="...">
+            <span>Demo User</span>
+          </div>
         </div>
       </div>
-    </div>
-
- </div>
- </div>
+    <!-- } @else{
+      <div class="col-3 d-flex justify-content-center  " style="color: green;">
+        <div class="spinner-border" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+      </div> 
+    } -->
+</div>
+</div>

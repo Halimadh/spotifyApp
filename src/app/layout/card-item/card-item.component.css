@@ -19,3 +19,9 @@
     border-radius: 10px;
     object-fit: cover;
 }
+.card-title{
+    color: #f1f1f1;
+}
+.card-subtitle{
+    color: #646464;
+}

@@ -10,11 +10,15 @@
     align-items: center !important;
 }
  .bg{
-    background-color:#181818 ;
+    background-color:#1813 ;
     color: #F1F1F1;
+    border: 2px solid green;
  }
  .card-img{
     width: 45px;
      height: 45px;
      margin-right: 5px;
  }
+ .cursor-pointer{
+    cursor: pointer;
+}

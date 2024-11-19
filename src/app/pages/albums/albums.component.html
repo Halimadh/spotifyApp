@@ -1,17 +1,12 @@
 <div class="content-layout">
   <div> <span class="title-layout text-white">List Albums</span></div>
   <div class="row">
+    @for(album of albums;track album.name){
     <div class="col-6 col-sm-4 col-md-3 col-xl-2 p-1">
-      <app-card-item></app-card-item>
-    </div> 
-    <div class="col-6 col-sm-4 col-md-3 col-xl-2 p-1">
-      <app-card-item></app-card-item>
-    </div> 
-    <div class="col-6 col-sm-4 col-md-3 col-xl-2 p-1">
-      <app-card-item></app-card-item>
+      <app-card-item [title]="album.name" [subtitle]="album.artist" [image_url]="album.image_url"></app-card-item>
     </div>
-   
-    
-  </div> 
-
+    }@empty {
+    <p>Albums not found</p>
+    }
+  </div>
 </div>

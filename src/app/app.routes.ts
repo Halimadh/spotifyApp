@@ -6,15 +6,20 @@ import { PlaylistsComponent } from './pages/playlists/playlists.component';
 import { PodcastsComponent } from './pages/podcasts/podcasts.component';
 import { LoginComponent } from './pages/login/login.component';
 import { FrontComponent } from './pages/front/front.component';
+import { authGuard, isloggingGuard} from './guards/auth.guard';
+
 
 export const routes: Routes = [
+    { path: '', redirectTo:'login', pathMatch: 'full' },
     { 
         path: 'login', 
-        component: LoginComponent 
+        component: LoginComponent, 
+        canActivate: [isloggingGuard]
     },
     {
-        path: 'front',
+        path: '',
         component: FrontComponent,
+        canActivate:[authGuard],
         children: [
             { path: 'home', component: HomeComponent },
             { path: 'albums', component: AlbumsComponent },
@@ -23,6 +28,6 @@ export const routes: Routes = [
             { path: 'podcasts', component: PodcastsComponent },
         ]
     },
-    { path: '', redirectTo: '/login', pathMatch: 'full' }
+    
 
 ];
