@@ -21,6 +21,11 @@
 }
 .card-title{
     color: #f1f1f1;
+    max-width: 100%;
+    width: 150px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 .card-subtitle{
     color: #646464;

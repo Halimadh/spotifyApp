@@ -1,12 +1,8 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { CardItemComponent } from '../../layout/card-item/card-item.component';
 import { ServicesService } from '../../services/services.service';
-
-interface Album {
-  name: string;
-  artist: string;
-  image_url: string;
-}
+import { AlbumService } from '../../services/album.service';
+import { Album } from '../../interfaces/album';
 
 @Component({
   selector: 'app-albums',
@@ -16,24 +12,25 @@ interface Album {
   styleUrl: './albums.component.css'
 })
 export class AlbumsComponent implements OnInit {
-  private services = inject(ServicesService);
+  private albumService = inject(AlbumService);
   albums: Album[]=[]
   ngOnInit(): void {
-    // this.getAlbums()
+     this.getAlbums()
     }
-// getAlbums(){
-//  this.services.getAlbums().subscribe({
-//   next: ( data ) => {
+getAlbums(){
+ this.albumService.getAllAlbum().subscribe({
+  next: ( data ) => {
+    this.albums = this.albumService.configAlbums(data)
 //  for(let d of data.albums){
 //    const newAlbum : Album = {name: d.name, artist: d.artists[0].name, image_url: d.images[0].url}
 //       this.albums.push(newAlbum)
 //     }
 //     console.log(this.albums)
-//   },
-//   error: (err) => {
-//     console.error(err);
+   },
+  error: (err) => {
+    console.error(err);
     
-//   }
-//  })
-// }
+  }
+ })
+}
 }
