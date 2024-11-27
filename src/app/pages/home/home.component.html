@@ -1,14 +1,32 @@
 <div class="content-layout">
-    <div> <span class="title-layout text-white">Home</span></div>
+    <div> <span class="title-layout text-white">Recently Players </span></div>
     <div class="row">
-        <div class="col-6 col-sm-4 col-md-3 col-xl-2 p-1">
-            <app-card-item></app-card-item>
-        </div>
-        <div class="col-6 col-sm-4 col-md-3 col-xl-2 p-1">
-            <app-card-item></app-card-item>
-        </div>
-        <div class="col-6 col-sm-4 col-md-3 col-xl-2 p-1">
-            <app-card-item></app-card-item>
-        </div>
+        @for (item of tracks; track item.id) {
+            <div class="col-6 col-sm-4 col-md-3 col-xl-2 p-1">
+                <app-card-item [isItemTrack]="true" 
+                [cardItem]="{
+                    cover: item.imageCover,
+                    title:item.title, 
+                    subtitle:item.artist, 
+                    linkUrl:item.linkUrl,
+                    track : item
+                }"></app-card-item>
+            </div>
+        }
+    </div>
+    <div> <span class="title-layout text-white">like tracks </span></div>
+    <div class="row">
+        @for (item of tracks; track item.id) {
+            <div class="col-6 col-sm-4 col-md-3 col-xl-2 p-1">
+                <app-card-item [isItemTrack]="true" 
+                [cardItem]="{
+                    cover: item.imageCover,
+                    title:item.title, 
+                    subtitle:item.artist, 
+                    linkUrl:item.linkUrl,
+                    track : item
+                }"></app-card-item>
+            </div>
+        }
     </div>
 </div>

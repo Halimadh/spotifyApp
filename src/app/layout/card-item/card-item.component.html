@@ -1,5 +1,8 @@
-<div class="card-item">
-  <img class="card-item-img" [src]="image_url" alt="...">
-  <span class="card-title">{{title}}</span>
-  <span class="card-subtitle">{{subtitle}}</span>
+<div class="card-item"  (click)="goToLink()">
+ @if (isItemTrack && cardItem.track) {
+  <app-btn-play [currentTrackToPlay]=cardItem.track ></app-btn-play>
+ }
+  <img class="card-item-img" [src]="cardItem.cover" alt="...">
+  <span class="card-title">{{cardItem.title}}</span>
+  <span class="card-subtitle">{{cardItem.subtitle}}</span>
 </div>

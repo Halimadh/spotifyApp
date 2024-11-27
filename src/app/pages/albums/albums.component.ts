@@ -3,11 +3,12 @@ import { CardItemComponent } from '../../layout/card-item/card-item.component';
 import { ServicesService } from '../../services/services.service';
 import { AlbumService } from '../../services/album.service';
 import { Album } from '../../interfaces/album';
+import { BtnPlayComponent } from '../../layout/btn-play/btn-play.component';
 
 @Component({
   selector: 'app-albums',
   standalone: true,
-  imports: [CardItemComponent],
+  imports: [CardItemComponent,BtnPlayComponent],
   templateUrl: './albums.component.html',
   styleUrl: './albums.component.css'
 })

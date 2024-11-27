@@ -1,14 +1,16 @@
 <div class="content-layout">
     <div> <span class="title-layout text-white">List Artists</span></div>
     <div class="row">
+        @for (item of artists; track item.id ) {
         <div class="col-6 col-sm-4 col-md-3 col-xl-2 p-1">
-            <app-card-item></app-card-item>
+            <app-card-item [isItemTrack]="false" 
+            [cardItem]="{
+                cover: item.cover, 
+                title:item.name, 
+                subtitle:'', 
+                linkUrl:item.linkUrl
+            }"></app-card-item>
         </div>
-        <div class="col-6 col-sm-4 col-md-3 col-xl-2 p-1">
-            <app-card-item></app-card-item>
-        </div>
-        <div class="col-6 col-sm-4 col-md-3 col-xl-2 p-1">
-            <app-card-item></app-card-item>
-        </div>
+        }
     </div>
 </div>

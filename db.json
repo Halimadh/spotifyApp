@@ -1,0 +1,823 @@
+{
+    "playlists": [
+        {
+            "id": "37i9dQZF1DWY4lFlS4Pnso",
+            "name": "Hot Hits UK",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67706f00000003b334c6ce53efdd96c20d4aaa"
+                }
+            ],
+            "description": "The UK's biggest playlist. Cover: Clavish & D-Block Europe",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWY4lFlS4Pnso"
+            }
+        },
+        {
+            "id": "37i9dQZF1DX5wB72P2sVsT",
+            "name": "Maximum",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67706f00000003507f9940b9a0505b49d3980e"
+                }
+            ],
+            "description": "Le mix parfait ! Photo : Joel Corry x Tom Grennan",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX5wB72P2sVsT"
+            }
+        },
+        {
+            "id": "37i9dQZF1DXa71eg5j9dKZ",
+            "name": "Altar",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67706f00000003e7dd6575bdeb6441ca779bfa"
+                }
+            ],
+            "description": "The home for alternative electronic music. Cover: Supershy",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/37i9dQZF1DXa71eg5j9dKZ"
+            }
+        },
+        {
+            "id": "37i9dQZF1DX8xV1CEmgc1h",
+            "name": "Motown Soul Number Ones",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67706f000000034a06592bc687857f20882f5a"
+                }
+            ],
+            "description": "Chart topping hits from the legendary label.",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX8xV1CEmgc1h"
+            }
+        },
+        {
+            "id": "37i9dQZF1DX1gcrZ1xC96D",
+            "name": "You Can Do It",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67706f0000000311c98457b215ef7072728ec2"
+                }
+            ],
+            "description": "Gym harder, better, faster and longer. Yes, you CAN do it.",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX1gcrZ1xC96D"
+            }
+        },
+        {
+            "id": "37i9dQZF1DWSZsRTzm4O6a",
+            "name": "Millésime",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67706f000000035155757c04205a16ed2435ab"
+                }
+            ],
+            "description": "Les plus grands crus de la chanson française moderne. Photo : -M- & Vanessa Paradis",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWSZsRTzm4O6a"
+            }
+        },
+        {
+            "id": "37i9dQZF1DX147VuwpqwJX",
+            "name": "The Ballroom (Vogue)",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67706f00000003e8733dd044cc816a5de961e5"
+                }
+            ],
+            "description": "The powerful, expressive sound of Ballroom and Vogue culture - pioneered by the black LGBTQIA+ community. Cover: Cakes da Killa",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX147VuwpqwJX"
+            }
+        },
+        {
+            "id": "37i9dQZF1DWYBO1MoTDhZI",
+            "name": "Good Vibes",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67706f000000037dc2a0fb4bfe0d07294f685e"
+                }
+            ],
+            "description": "Set it off with these epic anthems. Only good vibes here!",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWYBO1MoTDhZI"
+            }
+        },
+        {
+            "id": "37i9dQZF1DWUSKuTscFFGY",
+            "name": "Nouveautés Pop",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67706f000000030d4e6be046b4258ac5be85a0"
+                }
+            ],
+            "description": "Découvrez les meilleures nouveautés pop. Photo : Meghan Trainor",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWUSKuTscFFGY"
+            }
+        },
+        {
+            "id": "37i9dQZF1DX924zU1IARaD",
+            "name": "We Love Indie",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67706f000000037a24153372083fc94c2634c7"
+                }
+            ],
+            "description": "Les meilleurs titres indie du moment. Photo : Cigarettes After Sex.",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX924zU1IARaD"
+            }
+        },
+        {
+            "id": "37i9dQZF1DWWEcRhUVtL8n",
+            "name": "Indie Pop",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67706f00000003f0348d0f0ce492c5640d3b71"
+                }
+            ],
+            "description": "New and approved indie pop. Cover: Rachel Chinouriri",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWWEcRhUVtL8n"
+            }
+        },
+        {
+            "id": "37i9dQZF1DXaPCIWxzZwR1",
+            "name": "Pop Sauce",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67706f00000003b3c1b9ed75c0f7d99774980f"
+                }
+            ],
+            "description": "next gen pop cover: Isabel LaRosa",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/37i9dQZF1DXaPCIWxzZwR1"
+            }
+        },
+        {
+            "id": "37i9dQZF1DX8gDIpdqp1XJ",
+            "name": "Modern Psychedelia",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67706f000000030944e5995922971fb2a21d6a"
+                }
+            ],
+            "description": "The best of modern psychedelic rock,  neo-psychedelic, and psychedelic indie. ",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX8gDIpdqp1XJ"
+            }
+        },
+        {
+            "id": "37i9dQZF1DXcDoDDetPsEg",
+            "name": "Who We Be",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67706f0000000323e8f0cd8a38173f81a5e038"
+                }
+            ],
+            "description": "The Biggest Hip Hop, UK Rap, R&B, Dancehall & Afrobeat playlist. ",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/37i9dQZF1DXcDoDDetPsEg"
+            }
+        },
+        {
+            "id": "37i9dQZF1DX2Z1pVUBGGZs",
+            "name": "Our Generation",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67706f00000003c0bb2e2be11cc0e63f6750f6"
+                }
+            ],
+            "description": "🇺🇸 art: thomas headon + @doolittleillustrations",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX2Z1pVUBGGZs"
+            }
+        },
+        {
+            "id": "37i9dQZF1DX5uokaTN4FTR",
+            "name": "Massive Dance Hits",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67706f000000030517474ed722137ffb7a9f55"
+                }
+            ],
+            "description": "The UK's biggest dance playlist! Cover: Bugzy Malone & TeeDee",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX5uokaTN4FTR"
+            }
+        },
+        {
+            "id": "37i9dQZF1DX61tcJXPSFg7",
+            "name": "indispensable",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67706f00000003ad9e63c06f3e379dfc8c0259"
+                }
+            ],
+            "description": "Les meilleurs titres indie récents. Photo : Tash Sultana",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX61tcJXPSFg7"
+            }
+        },
+        {
+            "id": "37i9dQZF1DX7KNKjOK0o75",
+            "name": "Have a Great Day!",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67706f0000000386e40f3121af6df6566051c9"
+                }
+            ],
+            "description": "Feel great with these timelessly fun songs!",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX7KNKjOK0o75"
+            }
+        },
+        {
+            "id": "37i9dQZF1DWW7RgkOJG32Y",
+            "name": "Breakout Country",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67706f000000038f9af0190560f22514506db7"
+                }
+            ],
+            "description": "Top trending new and recent tracks from the last few months. Cover: Scotty McCreery",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWW7RgkOJG32Y"
+            }
+        },
+        {
+            "id": "37i9dQZF1DWXncK9DGeLh7",
+            "name": "Flashback",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67706f00000003d57ef80dbfc625b52aa3b15f"
+                }
+            ],
+            "description": "La playlist soul et funk pour passer une belle journée !",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWXncK9DGeLh7"
+            }
+        },
+        {
+            "id": "37i9dQZF1DWYVURwQHUqnN",
+            "name": "Best Life",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67706f00000003631c372c0570bee806f5522e"
+                }
+            ],
+            "description": "100% hits pop urbaine et afropop. Photo : Jul",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWYVURwQHUqnN"
+            }
+        },
+        {
+            "id": "37i9dQZF1DXbS5WTN5nKF7",
+            "name": "Hit Radio",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67706f0000000377b9b33b5c1f1279dbcc7568"
+                }
+            ],
+            "description": "Le meilleur des hits ! Photo : M. Pokora",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/37i9dQZF1DXbS5WTN5nKF7"
+            }
+        },
+        {
+            "id": "37i9dQZF1DWU4xkXueiKGW",
+            "name": "Fresh Rap",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67706f000000033ebfa5b3d56f7d3515bf19b4"
+                }
+            ],
+            "description": "Toutes les nouveautés du rap français. Photo : Niska",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWU4xkXueiKGW"
+            }
+        },
+        {
+            "id": "37i9dQZF1DWWNlI0CRgWup",
+            "name": "RADAR FRANCE",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67706f0000000391be77f72412c133e4f59a2a"
+                }
+            ],
+            "description": "Découvrez notre sélection des artistes à suivre. Photo : Zaho de Sagazan",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWWNlI0CRgWup"
+            }
+        },
+        {
+            "id": "37i9dQZF1DXdGDdHXKDLuQ",
+            "name": "Bottomless Brunch",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67706f00000003c1b04d4470240b9e6c272e95"
+                }
+            ],
+            "description": "Keep the glass full and let the hair down. We've got you covered.",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/37i9dQZF1DXdGDdHXKDLuQ"
+            }
+        },
+        {
+            "id": "37i9dQZF1DX0b1hHYQtJjp",
+            "name": "Just Good Music",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67706f00000003fd1ce932cb97f609f5f11123"
+                }
+            ],
+            "description": "Ease into these recent hits and new songs from your favorite artists. Cover: Meghan Trainor",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX0b1hHYQtJjp"
+            }
+        },
+        {
+            "id": "37i9dQZF1DXb57FjYWz00c",
+            "name": "80s Hits",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67706f00000003fa81f178dd6ffc482ac385e3"
+                }
+            ],
+            "description": "Nothing but unforgettable songs from the 80s.",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/37i9dQZF1DXb57FjYWz00c"
+            }
+        },
+        {
+            "id": "37i9dQZF1DWYNSm3Z3MxiM",
+            "name": "Classic Rock Workout",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67706f000000032b9f1eabb09e33e3359c750d"
+                }
+            ],
+            "description": "Anthems only. For an extra rep, an extra set or an extra mile.",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWYNSm3Z3MxiM"
+            }
+        },
+        {
+            "id": "37i9dQZF1DWSVtp02hITpN",
+            "name": "The Pop List",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67706f0000000341fc529b2552f37633b438fe"
+                }
+            ],
+            "description": "Living for pure pop thrills? We've got you covered. Cover: Caity Baser",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWSVtp02hITpN"
+            }
+        },
+        {
+            "id": "37i9dQZF1DX186v583rmzp",
+            "name": "I Love My '90s Hip-Hop",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67706f0000000317f5a91128f800d0223948cd"
+                }
+            ],
+            "description": "Real rap music from the golden era.\n",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX186v583rmzp"
+            }
+        }
+    ],
+    "podcasts": [
+        {
+            "show": {
+                "id": "3ixMUAbmKEYcoRt62l48Zp",
+                "name": "L'After Foot",
+                "publisher": "RMC",
+                "images": [
+                    {
+                        "url": "https://i.scdn.co/image/ab6765630000ba8a2c999f9f7cf320c13bda965e"
+                    }
+                ],
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/show/3ixMUAbmKEYcoRt62l48Zp"
+                }
+            }
+        },
+        {
+            "show": {
+                "id": "1VXcH8QHkjRcTCEd88U3ti",
+                "name": "TED Talks Daily",
+                "publisher": "TED",
+                "images": [
+                    {
+                        "url": "https://i.scdn.co/image/96b8b3d5b7c1a5ae952c7489406602539ce651c8"
+                    }
+                ],
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/show/1VXcH8QHkjRcTCEd88U3ti"
+                }
+            }
+        },
+        {
+            "show": {
+                "id": "6ll0MwobDt1JW9gYaOONEo",
+                "name": "Think Fast, Talk Smart: Communication Techniques",
+                "publisher": "Stanford GSB",
+                "images": [
+                    {
+                        "url": "https://i.scdn.co/image/b5a470d7d4dd60053c3aa8b31b7b5dbebb0b1a7c"
+                    }
+                ],
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/show/6ll0MwobDt1JW9gYaOONEo"
+                }
+            }
+        }
+    ],
+    "artists": [
+        {
+            "id": "6XyY86QOPPrYVGvF9ch6wz",
+            "name": "Linkin Park",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb34e5aa6afc1ba147bfbb0677"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/6XyY86QOPPrYVGvF9ch6wz"
+            }
+        },
+        {
+            "id": "7Ln80lUS6He07XvHI8qqHH",
+            "name": "Arctic Monkeys",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb7da39dea0a72f581535fb11f"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/7Ln80lUS6He07XvHI8qqHH"
+            }
+        },
+        {
+            "id": "7dGJo4pcD2V6oG8kP0tJRR",
+            "name": "Eminem",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eba00b11c129b27a88fc72f36b"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR"
+            }
+        },
+        {
+            "id": "69GGBxA162lTqCwzJG5jLp",
+            "name": "The Chainsmokers",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb3c02f4fb4cc9187c488afd50"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/69GGBxA162lTqCwzJG5jLp"
+            }
+        },
+        {
+            "id": "3YQKmKGau1PzlVlkL1iodx",
+            "name": "Twenty One Pilots",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb196972172c37d934d9ca8093"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/3YQKmKGau1PzlVlkL1iodx"
+            }
+        },
+        {
+            "id": "3fMbdgg4jU18AjLCKBhRSm",
+            "name": "Michael Jackson",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb0e08ea2c4d6789fbf5cbe0aa"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
+            }
+        },
+        {
+            "id": "5j4HeCoUlzhfWtjAfM1acR",
+            "name": "Stromae",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb5e22bd1057446fccb9fce27c"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/5j4HeCoUlzhfWtjAfM1acR"
+            }
+        },
+        {
+            "id": "0gxyHStUsqpMadRV0Di1Qt",
+            "name": "Rick Astley",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebae7c6eb1fa0534646127d1c6"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0gxyHStUsqpMadRV0Di1Qt"
+            }
+        },
+        {
+            "id": "6jJ0s89eD6GaHleKKya26X",
+            "name": "Katy Perry",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebdc9dcb7e4a97b4552e1224d6"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/6jJ0s89eD6GaHleKKya26X"
+            }
+        },
+        {
+            "id": "6qqNVTkY8uBg9cP3Jd7DAH",
+            "name": "Billie Eilish",
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebd8b9980db67272cb4d2c3daf"
+                }
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/6qqNVTkY8uBg9cP3Jd7DAH"
+            }
+        }
+    ],
+    "albums": [
+        {
+            "album": {
+                "id": "0r8D5N674HbTXlR3zNxeU1",
+                "name": "Whenever You Need Somebody (Deluxe Edition - 2022 Remaster)",
+                "artists": [
+                    {
+                        "name": "Rick Astley"
+                    }
+                ],
+                "images": [
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d0000b27340cfd29072e59591d8dd522a"
+                    }
+                ],
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/album/0r8D5N674HbTXlR3zNxeU1"
+                }
+            }
+        },
+        {
+            "album": {
+                "id": "57TzZhbqvYoUBzJSVKFVlG",
+                "name": "Thriller 40",
+                "artists": [
+                    {
+                        "name": "Michael Jackson"
+                    }
+                ],
+                "images": [
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273822e06488f98e53e8743ff6b"
+                    }
+                ],
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/album/57TzZhbqvYoUBzJSVKFVlG"
+                }
+            }
+        },
+        {
+            "album": {
+                "id": "0xi4cOWPUHjctyYU8ypCOB",
+                "name": "Joytime II",
+                "artists": [
+                    {
+                        "name": "Marshmello"
+                    }
+                ],
+                "images": [
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d0000b2734b146ee90f8845b41ce2fc1d"
+                    }
+                ],
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/album/0xi4cOWPUHjctyYU8ypCOB"
+                }
+            }
+        },
+        {
+            "album": {
+                "id": "5JY3b9cELQsoG7D5TJMOgw",
+                "name": "Multitude",
+                "artists": [
+                    {
+                        "name": "Stromae"
+                    }
+                ],
+                "images": [
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d0000b27331d6b27ffaa0b2f89234698a"
+                    }
+                ],
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/album/5JY3b9cELQsoG7D5TJMOgw"
+                }
+            }
+        },
+        {
+            "album": {
+                "id": "3cQO7jp5S9qLBoIVtbkSM1",
+                "name": "Blurryface",
+                "artists": [
+                    {
+                        "name": "Twenty One Pilots"
+                    }
+                ],
+                "images": [
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273de03bfc2991fd5bcfde65ba3"
+                    }
+                ],
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/album/3cQO7jp5S9qLBoIVtbkSM1"
+                }
+            }
+        },
+        {
+            "album": {
+                "id": "4JPguzRps3kuWDD5GS6oXr",
+                "name": "Memories...Do Not Open",
+                "artists": [
+                    {
+                        "name": "The Chainsmokers"
+                    }
+                ],
+                "images": [
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d0000b2730c13d3d5a503c84fcc60ae94"
+                    }
+                ],
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/album/4JPguzRps3kuWDD5GS6oXr"
+                }
+            }
+        },
+        {
+            "album": {
+                "id": "78bpIziExqiI9qztvNFlQu",
+                "name": "AM",
+                "artists": [
+                    {
+                        "name": "Arctic Monkeys"
+                    }
+                ],
+                "images": [
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d0000b2734ae1c4c5c45aabe565499163"
+                    }
+                ],
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/album/78bpIziExqiI9qztvNFlQu"
+                }
+            }
+        },
+        {
+            "album": {
+                "id": "3FFGbUutKWN1c4f0CJR4Uh",
+                "name": "Nevermind (Super Deluxe Edition)",
+                "artists": [
+                    {
+                        "name": "Nirvana"
+                    }
+                ],
+                "images": [
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273fb2d4c1ac0a601826986c785"
+                    }
+                ],
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/album/3FFGbUutKWN1c4f0CJR4Uh"
+                }
+            }
+        }
+    ],
+    "recentlyPlayers" : [
+        {
+            "id": "5nisKPCPMYqMS8f8t4Xpp9",
+            "name": "Something In The Way",
+            "duration_ms": 232146,
+            "added_at" : "2022-11-24T15:06:25Z",
+            "preview_url": "https://p.scdn.co/mp3-preview/807721b1e4fee817bb89e6bd575a51280bc77dec?cid=d26b14e7ca354841881babcf448abaab",
+            "album": {
+                "name": "Nevermind (Super Deluxe Edition)",
+                "images": [
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273fb2d4c1ac0a601826986c785"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "Nirvana"
+                }
+            ],
+            "images": [
+                {}
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/5nisKPCPMYqMS8f8t4Xpp9"
+            }
+        },
+        {
+            "id": "5FVd6KXrgO9B3JPmC8OPst",
+            "name": "Do I Wanna Know?",
+            "duration_ms": 272394,
+            "added_at" : "2022-11-24T15:07:50Z",
+            "preview_url": "https://p.scdn.co/mp3-preview/18d8be17343d3ef580e93a5fff47c9b58870a31a?cid=d26b14e7ca354841881babcf448abaab",
+            "album": {
+                "name": "AM",
+                "images": [
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d0000b2734ae1c4c5c45aabe565499163"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "Arctic Monkeys"
+                }
+            ],
+            "images": [
+                {}
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/5FVd6KXrgO9B3JPmC8OPst"
+            }
+        },
+        {
+            "id": "4J7q868y75lpaRo99104Tm",
+            "name": "AFRO-NAE",
+            "duration_ms": 66455,
+            "added_at" : "2022-10-30T00:49:51Z",
+            "preview_url": "https://p.scdn.co/mp3-preview/76cfc3720b9757088c5182dcc8cdcb830bb1991d?cid=d26b14e7ca354841881babcf448abaab",
+            "album": {
+                "name": "AFRO-NAE",
+                "images": [
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273bb58cb80def01deb456cc18a"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "Kvng Vinci"
+                }
+            ],
+            "images": [
+                {}
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/4J7q868y75lpaRo99104Tm"
+            }
+        },
+        {
+            "id": "1KeZgPUr54C8iz3FjqzVoz",
+            "name": "Young",
+            "duration_ms": 224773,
+            "added_at" : "2022-10-29T22:21:39Z",
+            "preview_url": "https://p.scdn.co/mp3-preview/3a4ea662d3b99a6347e582c95c21c1b52dbbcd1b?cid=d26b14e7ca354841881babcf448abaab",
+            "album": {
+                "name": "Memories...Do Not Open",
+                "images": [
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d0000b2730c13d3d5a503c84fcc60ae94"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "The Chainsmokers"
+                }
+            ],
+            "images": [
+                {}
+            ],
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/1KeZgPUr54C8iz3FjqzVoz"
+            }
+        }
+    ]
+}

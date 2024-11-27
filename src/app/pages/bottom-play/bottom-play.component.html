@@ -1,0 +1,49 @@
+
+<div id="bottom-play-music" 
+*ngIf="(currentTrackPlaying$ | async); let trackPlaying"
+class="row g-0">
+    <div id="bottom-play-music-metadata" class="col-sm-12 col-md-3">
+        <img id="bottom-play-music-cover" [src]=" trackPlaying.imageCover ? trackPlaying.imageCover : 'https://i.scdn.co/image/ab67616d0000b273fb2d4c1ac0a601826986c785'" alt="friend picture">
+        <i id="bottom-play-music-btn-link-external" class='bx bx-play-circle' style="color: green;"
+        (click)="goToLink(trackPlaying.linkUrl? trackPlaying.linkUrl : 'https://open.spotify.com/track/5nisKPCPMYqMS8f8t4Xpp9')"
+        data-bs-toggle="tooltip" data-bs-placement="top" title="Listen Full Song In Spotify" ></i>
+        <div class="d-flex flex-column">
+            <span id="bottom-play-music-title" style="color: #f1f1f1f1 ;" >{{trackPlaying.title ? trackPlaying.title : "Title Track"}}</span>
+            <span id="bottom-play-music-artist">{{trackPlaying.artist ? trackPlaying.artist : "Artist Name"}}</span>
+        </div>
+    </div>
+    <div class="col-sm-12 col-md-9 row g-0">
+        <div id="bottom-play-music-content" class="col-11 col-md-9">
+            <div id="bottom-play-music-content-controls">
+                <i class='bx bx-skip-previous' (click)="playPrevTrack(trackPlaying.id)"></i>
+                <i class='bx bx-pause' *ngIf="(isTrackPlaying$|async) == true" (click)="togglePlay()"></i>
+                <i class='bx bx-play' *ngIf="(isTrackPlaying$|async) == false" (click)="togglePlay()"></i>
+                <i class='bx bx-skip-next' (click)="playNextTrack(trackPlaying.id)"></i>
+            </div>
+            <div id="bottom-play-music-content-durations" class="">
+                <span id="bottom-play-music-minutes-played">{{(currentTrackPlayingMinutePlayed$ | async)}}</span>
+                <input id="bottom-play-music-duration" (change)="changeSliderTime($event)" type="range" min="0" disabled max="100"
+                        value="{{(currentTrackPlayingSliderPosition$ | async)}}">
+                <span id="bottom-play-music-minutes-left">{{(currentTrackPlayingMinuteLeft$ | async)}}</span>
+            </div>
+    
+        </div>
+        <div id="bottom-play-music-volume" class="col-1 col-md-3">
+            <div class="d-none d-md-block text-center">
+                <div>
+                    <i class='bx bx-volume-full'></i>
+                </div>
+                <input type="range" min="0" max="1" step="0.1" 
+                (change)="changeVolumePlayer($event)" value="{{(currentTrackPlayingVolume$ | async)}}">
+            </div>
+            <div class="d-block d-md-none text-center">
+                <i class='bx bx-volume-full' data-bs-toggle="dropdown"
+                aria-expanded="false"></i>
+                <div class="dropdown-menu">
+                    <input type="range" min="0" max="1" step="0.1" class="dropdown-item"
+                        (change)="changeVolumePlayer($event)" value="{{(currentTrackPlayingVolume$ | async)}}">
+                </div>
+            </div>
+        </div>    
+    </div>
+</div>

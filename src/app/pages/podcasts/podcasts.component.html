@@ -1,14 +1,16 @@
 <div class="content-layout">
     <div> <span class="title-layout text-white">Podcasts</span></div>
     <div class="row">
-        <div class="col-6 col-sm-4 col-md-3 col-xl-2 p-1">
-            <app-card-item></app-card-item>
-        </div>
-        <div class="col-6 col-sm-4 col-md-3 col-xl-2 p-1">
-            <app-card-item></app-card-item>
-        </div>
-        <div class="col-6 col-sm-4 col-md-3 col-xl-2 p-1">
-            <app-card-item></app-card-item>
-        </div>
+        @for (item of podcasts; track item.id) {
+            <div class="col-6 col-sm-4 col-md-3 col-xl-2 p-1">
+                <app-card-item [isItemTrack]="false" 
+                [cardItem]="{
+                    cover: item.cover,
+                    title:item.name, 
+                    subtitle:item.publisher, 
+                    linkUrl:item.linkUrl
+                }"></app-card-item>
+            </div>
+        }
     </div>
 </div>

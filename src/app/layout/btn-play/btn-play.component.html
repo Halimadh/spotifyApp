@@ -1,0 +1,22 @@
+<div class="" *ngIf="(currentTrackPlaying$ | async); let currentTrack;">
+        <!--Show Play Button only if
+                There is not a Track Playing
+                        OR
+                There is a Track Playing AND it's not this track
+        -->
+        <i class='bx bx-play-circle isPlayingCss' 
+        *ngIf=" !currentTrack.id 
+                        || 
+                ( currentTrack.id && currentTrack.id !== currentTrackToPlay.id);
+        else showBtnToggle" (click)="playTrack()"></i>
+
+        <ng-template #showBtnToggle>
+                <i class='bx bx-pause' *ngIf="(isTrackPlaying$|async) 
+                                        && currentTrack.id === currentTrackToPlay.id; 
+                                        else isPaused" (click)="togglePlay()"></i>
+                <ng-template #isPaused>
+                        <i class='bx bx-play' (click)="togglePlay()"></i>
+                </ng-template>
+        </ng-template>
+</div>
+

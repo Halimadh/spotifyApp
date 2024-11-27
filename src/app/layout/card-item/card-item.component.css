@@ -29,4 +29,14 @@
 }
 .card-subtitle{
     color: #646464;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.card-item:hover{
+    background-color: #333333;
+}
+
+.card-item:hover .isPlayingCss {
+    opacity: 1;
 }

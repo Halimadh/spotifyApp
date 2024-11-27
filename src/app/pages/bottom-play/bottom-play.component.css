@@ -1,0 +1,128 @@
+#bottom-play-music {
+    background-color: var(--bg-primary-color);
+}
+
+#bottom-play-music-metadata {
+    display: flex;
+    padding-right: 0.5rem;
+    align-items: center;
+    gap: 0.7rem;
+    /* max-width: 30%; */
+    overflow: hidden;
+    background-color: #333;
+}
+
+#bottom-play-music-cover {
+    height: 60px;
+}
+
+#bottom-play-music-btn-link-external {
+    font-size: 2rem;
+    color: var(--site-primary-color);
+    cursor: pointer;
+}
+
+#bottom-play-music-title,
+#bottom-play-music-artist {
+    max-width: 100%;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+
+#bottom-play-music-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--font-size-text-4);
+    color: var(--text-primary-color);
+}
+
+#bottom-play-music-artist {
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--font-size-text-normal);
+    color: var(--text-third-color);
+}
+
+#bottom-play-music-content {
+    padding: 0 0.5rem;
+    color: var(--text-primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 50%; */
+}
+
+#bottom-play-music-content-durations {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#bottom-play-music-content-durations span {
+    font-style: normal;
+    width: 70px;
+    font-weight: 400;
+    font-size: var(--font-size-text-normal);
+    color: var(--text-second-color);
+    text-align: center;
+}
+
+#bottom-play-music-duration {
+    max-width: 400px;
+    width: 90%;
+    height: 5px;
+}
+
+#bottom-play-music-content-controls {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+#bottom-play-music-content-controls i {
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+#bottom-play-music-content-controls .bx-pause,
+#bottom-play-music-content-controls .bx-play {
+    background-color: var(--site-primary-color);
+    padding: 0.1rem;
+    border-radius: 50%;
+}
+
+#bottom-play-music-content-controls img {
+    height: 13px;
+    cursor: pointer;
+}
+
+#bottom-play-music-volume {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+    gap: 1.3rem;
+    color: var(--text-primary-color);
+    /* background-color: #333; */
+    /* width: 20%; */
+}
+
+#bottom-play-music-volume i,
+#bottom-play-music-volume input {
+    cursor: pointer;
+}
+
+#bottom-play-music-volume img {
+    height: 13px;
+    width: 13px;
+    cursor: pointer;
+}
+#bottom-play-music-volume .dropdown-menu {
+    border-radius: 15px;
+    padding: 0.5rem;
+}
